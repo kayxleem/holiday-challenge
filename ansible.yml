@@ -1,11 +1,10 @@
 - name: Install apache web server
   hosts: all
   become: True
-  
+
   tasks:
   - name: update & upgrade server
     apt:
-      update_cache: yes
       upgrade: yes
 
   - name: install nginx
