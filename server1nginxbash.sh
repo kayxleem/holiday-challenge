@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 
-
 # the command to overide the nginx html page
 
 echo "<h1>This is my server1 $(hostname -f)</h1>" > /var/www/html/index.nginx-debian.html
